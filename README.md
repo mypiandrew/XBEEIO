@@ -109,7 +109,8 @@ Digital 3 In:   1
 
 Set Digital Output Lines
 
-```# ./xbeeio.py --port ttyUSB1 --remote XBEE1 --setdigout 0010
+```
+# ./xbeeio.py --port ttyUSB1 --remote XBEE1 --setdigout 0010
 DIGOUT 0 set to 0
 DIGOUT 1 set to 0
 DIGOUT 2 set to 1
