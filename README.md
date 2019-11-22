@@ -90,13 +90,14 @@ Digital 3 In:   1
 ```
 
 
-Read back values from remote unit
+Read back values from remote unit formatted
 
-```# ./xbeeio.py --port ttyUSB1 --remote XBEE1 --readall
-Analog 0 Volts: 0.723
-Analog 1 Volts: 0.723
-Analog 2 Volts: 0.718
-Analog 3 Volts: 0.716
+```
+# ./xbeeio.py --port ttyUSB1 --remote XBEE1 --readall --format temp
+Analog 0 Temprature:    22.3
+Analog 1 Temprature:    22.6
+Analog 2 Temprature:    21.8
+Analog 3 Temprature:    21.4
 Digital 0 In:   1
 Digital 1 In:   1
 Digital 2 In:   1
