@@ -77,7 +77,8 @@ XBEE1   |  0013A200415D1518
 
 Read back IO from a target remote unit
 
-```# ./xbeeio.py --port ttyUSB1 --remote XBEE1 --readall
+```
+# ./xbeeio.py --port ttyUSB1 --remote XBEE1 --readall
 Analog 0 Volts: 0.723
 Analog 1 Volts: 0.723
 Analog 2 Volts: 0.718
