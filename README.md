@@ -151,7 +151,7 @@ optional arguments:
   --outputlogline       display output in single data log format
   --outputjson          display output in JSON format
   --setdigouts SETDIGOUT
-                        set digouts as 4bit state 0123>
+                        set digouts as 4bit state <0123>
   --quiet               suppress extra output
 
 Example usage:
