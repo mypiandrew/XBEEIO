@@ -415,7 +415,7 @@ def main():
     ap.add_argument("--outputstd", action='store_true', dest='std', help="display the output in human readable form (default)")
     ap.add_argument("--outputlogline", action='store_true', dest='log', help="display output in single data log format")
     ap.add_argument("--outputjson", action='store_true', dest='json', help="display output in JSON format")
-    ap.add_argument("--setdigouts", action='store', dest='setdigout', help="set digouts as 4bit state 0123>")
+    ap.add_argument("--setdigouts", action='store', dest='setdigout', help="set digouts as 4bit state <0123>")
     ap.add_argument("--quiet", action='store_true', dest='quiet', help="suppress extra output")
 
     if len(sys.argv)==1:
